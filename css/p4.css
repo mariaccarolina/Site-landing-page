@@ -1,0 +1,25 @@
+/* .p4 {
+  display: flex;
+} */
+
+.p4 section {
+  gap: 1em;
+  align-items: center;
+  display: flex;
+  flex: 1 1 200px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.p4 section div {
+  padding: 1em;
+}
+
+.p4 section div,
+.p4 section img {
+  width: 400px;
+}
+
+/* .p4 section img {
+  width: 100%;
+} */

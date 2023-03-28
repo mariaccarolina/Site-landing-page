@@ -1,0 +1,28 @@
+main {
+  padding: 2em 0;
+}
+
+main .p1 {
+  display: flex;
+  gap: 1em;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 1em;
+}
+
+main .p1 * {
+  flex: 1 1 300px;
+}
+
+main .p1 div {
+  /* width: 500px; */
+  max-width: 100%;
+}
+
+main .p1 img {
+  height: 300px;
+  /* flex: 1 1 100px; */
+  object-fit: contain;
+  margin: auto;
+}

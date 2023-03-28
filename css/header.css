@@ -1,0 +1,20 @@
+header {
+  width: 100%;
+}
+
+header div {
+  min-height: 20px;
+  background-color: black;
+}
+
+header div {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+
+header .capa {
+  width: 100%;
+  min-height: 300px;
+  object-fit: cover;
+}

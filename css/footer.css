@@ -1,0 +1,17 @@
+footer {
+  background-color: black;
+  color: white;
+  padding: 1em;
+}
+
+footer div,
+footer p {
+  /* padding: 1em; */
+  display: flex;
+  justify-content: center;
+  gap: 1em;
+}
+
+footer p {
+  font-size: small;
+}
